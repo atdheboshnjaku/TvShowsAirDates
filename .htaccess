@@ -1,0 +1,6 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+# send all traffic to /view/
+#RewriteRule .* src/view/$0 [L]
+RewriteRule .* src/view/$0 [L]

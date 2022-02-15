@@ -1,0 +1,170 @@
+/* CSS Created by Atdhe Boshnjaku */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-bg: #000;
+    --dark-bg: #111;
+    --white-txt: #fff;
+    --accent: #00BFFF;
+    --accent-hover: #00A5DD;
+}
+
+html, body {
+    height: 100%;
+    background: var(--black-bg);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.top-bar {
+    width: 100vw;
+    height: 70px;
+    float: left;
+    background: var(--dark-bg);
+}
+
+.form {
+    width: 600px;
+    min-width: 300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.form input, .form button {
+    width: 80%;
+    height: 60%;
+    margin: 15px 0 0 0;
+    float: left;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form input {
+    padding: 2%;
+    box-sizing: border-box;
+    color: var(--dark-bg);
+}
+
+.form button {
+    width: 20% !important;
+    background: var(--accent);
+    color: var(--white-txt);
+}
+
+.form button:hover {
+    background: var(--accent-hover);
+    cursor: pointer;
+}
+
+/* Slider & friends */
+
+.slider-ctn {
+    width: 100vw;
+    min-width: 300px;
+    height: auto;
+    float: left;
+    
+}
+
+.slider-inner-ctn {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0.8%;
+}
+
+.show-cover {
+    width: 188px;
+    height: 300px;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    background: var(--dark-bg);
+    border-radius: 10px;
+}
+
+.show-cover img, #slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slideshow { 
+    width: 400px; 
+    height: 220px; 
+    float: left;
+    position: relative; 
+    padding: 3%;
+    box-sizing: border-box;
+    background: var(--dark-bg);
+    border-radius: 10px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.air-date-ctn {
+    width: 400px;
+    height: 67px;
+    float: left;
+    color: var(--white-txt);
+    margin-top: 2%;
+    padding: 1% 2% 2% 2%;
+    box-sizing: border-box;
+    background: var(--dark-bg);
+    border-radius: 10px;
+}
+
+.air-date-ctn p:first-child {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* End: Slider & friends */
+
+.show-description, .show-info {
+    width: 96%;
+    margin-bottom: 2%;
+    padding: 2%;
+    float: left;
+    color: var(--white-txt);
+    background: var(--dark-bg);
+    border-radius: 10px;
+}
+
+.info-box {
+    width: 23%;
+    margin: 1%;
+    float: left;
+}
+
+.accent-color {
+    color: var(--accent);
+}
+
+.no-show {
+    width: 600px;
+    min-height: 80px;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: center;
+    line-height: 80px;
+    color: var(--white-txt);
+}
+
+
+
+

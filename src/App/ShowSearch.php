@@ -7,7 +7,7 @@ namespace Atdhe\Tvshowsapi\App;
 class ShowSearch
 {
 
-    public function getShowFromAPI(string $searchQuery): array|string 
+    public function getShowFromAPI(string $searchQuery): array 
     {
 
         $filteredQuery = str_replace(" ", "-", $searchQuery);

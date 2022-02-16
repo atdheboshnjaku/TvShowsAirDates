@@ -78,7 +78,9 @@ if(!empty($_GET['search'])) {
 
                             //$air_date = $result['tvShow']['countdown']['air_date'] ? $result['tvShow']['countdown']['air_date'] : 'N/A';
                             if(isset($result['tvShow']['countdown']['air_date'])) {
-                                echo 'Next Episode Airs: ' . $result['tvShow']['countdown']['air_date'];
+                                $airs_on = new DateTime($result['tvShow']['countdown']['air_date']);
+
+                                echo 'Next Episode Airs: ' . $airs_on->format('d F Y H:i');
                             } else {
                                 echo 'Next Episode Airs: TBA';
                             }

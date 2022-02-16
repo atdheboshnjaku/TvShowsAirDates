@@ -76,7 +76,6 @@ if(!empty($_GET['search'])) {
                     <p>
                         <?php
 
-                            //$air_date = $result['tvShow']['countdown']['air_date'] ? $result['tvShow']['countdown']['air_date'] : 'N/A';
                             if(isset($result['tvShow']['countdown']['air_date'])) {
                                 $airs_on = new DateTime($result['tvShow']['countdown']['air_date']);
 
